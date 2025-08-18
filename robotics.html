@@ -53,9 +53,9 @@
             </div>
             <div class="row">
                 <!-- Portfolio item 1-->
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#fastRoboticsModal" style="cursor: pointer;">
+                        <img class="img-fluid" src="assets/img/Robotics_Portfolio/FastRobots_portfolio.jpeg" alt="..." />
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Fast Robotics</div>
                             <div class="portfolio-caption-subheading text-muted">Arduino + Control Systems integration</div>
@@ -63,8 +63,8 @@
                     </div>
                 </div>
                 <!-- Portfolio item 2-->
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#tripp1Modal" style="cursor: pointer;">
                         <img class="img-fluid" src="assets/img/Robotics_Portfolio/Tripp1_portfolio.jpg" alt="..." />
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Tripp1</div>
@@ -73,8 +73,8 @@
                     </div>
                 </div>
                 <!-- Portfolio item 3-->
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#tripp2Modal" style="cursor: pointer;">
                         <img class="img-fluid" src="assets/img/Robotics_Portfolio/Tripp2_portfolio.jpg" alt="..." />
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Tripp2 </div>
@@ -83,9 +83,9 @@
                     </div>
                 </div>
                 <!-- Portfolio item 4-->
-                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                    <div class="portfolio-item">
-                        <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#ur10eModal" style="cursor: pointer;">
+                        <img class="img-fluid" src="assets/img/Robotics_Portfolio/Ur10e_Portfolio.jpg" alt="..." />
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">UR10e path planning</div>
                             <div class="portfolio-caption-subheading text-muted"> Ros/Moveit + Path Planning + Simulation</div>
@@ -101,13 +101,293 @@
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 text-lg-start">&copy; Robotics Portfolio 2023</div>
+                <div class="col-lg-6 text-lg-start">&copy; Alex Allen 2024</div>
                 <div class="col-lg-6 text-lg-end">
                     <a class="link-light text-decoration-none" href="index.html#contact">Contact Me</a>
                 </div>
             </div>
         </div>
     </footer>
+    <!-- Project Modals -->
+    
+    <!-- Modal 1: Fast Robotics -->
+    <div class="modal fade" id="fastRoboticsModal" tabindex="-1" aria-labelledby="fastRoboticsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fastRoboticsModalLabel">Fast Robotics Project</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <!-- Project Image -->
+                                <img class="img-fluid mb-4" src="assets/img/Robotics_Portfolio/FastRobots_portfolio.jpeg" alt="Fast Robotics Project" />
+                                
+                                <!-- Project Description -->
+                                <h3>Project Overview</h3>
+                                <p class="text-muted">Arduino-based control system for high-speed robotic navigation and obstacle avoidance.</p>
+                                
+                                <h4>Technical Details</h4>
+                                <ul>
+                                    <li><strong>Platform:</strong> Arduino Uno with custom shield</li>
+                                    <li><strong>Sensors:</strong> Ultrasonic, IMU, encoders</li>
+                                    <li><strong>Control:</strong> PID controller with Kalman filtering</li>
+                                    <li><strong>Programming:</strong> C++ with ROS integration</li>
+                                </ul>
+                                
+                                <h4>Key Achievements</h4>
+                                <ul>
+                                    <li>Achieved 2m/s navigation speed with <5cm precision</li>
+                                    <li>Implemented real-time obstacle avoidance</li>
+                                    <li>Reduced latency by 40% through optimization</li>
+                                </ul>
+                                
+                                <h4>Skills Demonstrated</h4>
+                                <p>Embedded Systems • Control Theory • Sensor Fusion • C++ Programming • ROS • Real-time Systems</p>
+                                
+                                <div class="mt-4">
+                                    <a href="#" class="btn btn-primary">View Code on GitHub</a>
+                                    <a href="#" class="btn btn-outline-primary">Watch Demo Video</a>
+                                </div>
+                                
+                                <!-- Image Gallery Grid -->
+                                <h4 class="mt-5">Project Gallery</h4>
+                                <div class="row g-3">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/FastRobots_portfolio.jpeg" class="img-fluid rounded" alt="Fast Robotics Image 1">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/FastRobots_portfolio.jpeg" class="img-fluid rounded" alt="Fast Robotics Image 2">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/FastRobots_portfolio.jpeg" class="img-fluid rounded" alt="Fast Robotics Image 3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Tripp1 -->
+    <div class="modal fade" id="tripp1Modal" tabindex="-1" aria-labelledby="tripp1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tripp1ModalLabel">Tripp1 - Autonomous Mobile Robot</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <!-- Main Project Image -->
+                                <img class="img-fluid mb-4" src="assets/img/Robotics_Portfolio/Tripp1_portfolio.jpg" alt="Tripp1 Project" />
+                                
+                                <!-- Project Description -->
+                                <h3>Project Overview</h3>
+                                <p class="text-muted">Problem: System design and fabrication of an autonomous mobile robot platform with advanced navigation capabilities.</p>
+                                
+                                <h4>Technical Details</h4>
+                                <ul>
+                                    <li><strong>Platform:</strong> 2 Robotic arms, 4 DOF arm for tool operation, 6 DOF for pick/place operation and manipualation</li>
+                                    <li><strong>Processing:</strong> Arduino Uno, and Mini Maestro</li>
+                                    <li><strong>Software:</strong> Python, C++, Arduino IDE</li>
+                                </ul>
+                                
+                                <h4>Key Achievements</h4>
+                                <ul>
+                                    <li>Designed and fabricated custom chassis using SolidWorks</li>
+                                    <li>Implemented </li>
+                                    <li>Custom designed mobile robots components for interfacing and robotic manipulation</li>
+                                </ul>
+                                
+                                <h4>Skills Demonstrated</h4>
+                                <p>System Integration • Mechanical Design • 3D Printing • System Design • Robotics Programming</p>
+                                
+                                <div class="mt-4">
+                                    <a href="#" class="btn btn-primary">View Documentation</a>
+                                    <a href="#" class="btn btn-outline-primary">Watch Demo</a>
+                                </div>
+                                
+                                <!-- Project Video -->
+                                <h4 class="mt-5">Demo Video</h4>
+                                <div class="ratio ratio-16x9 mb-4">
+                                    <!-- YouTube Embed -->
+                                    <iframe src="https://www.youtube.com/embed/HD38YJqy7nw" title="Tripp1 Demo Video" allowfullscreen></iframe>
+                                    
+                                    <!-- Option 2: Local Video File (Comment out YouTube and uncomment this) -->
+                                    <!-- <video controls class="w-100">
+                                        <source src="assets/videos/tripp1_demo.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video> -->
+                                </div>
+                                
+                                <!-- Image Gallery Grid -->
+                                <h4 class="mt-4">Project Gallery</h4>
+                                <div class="row g-3">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/mobile robot.jpg" class="img-fluid rounded" alt="Tripp1 Image 1">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/Tool_operator.jpg" class="img-fluid rounded" alt="Tripp1 Image 2">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/Tripp1_portfolio.jpg" class="img-fluid rounded" alt="Tripp1 Image 3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: Tripp2 -->
+    <div class="modal fade" id="tripp2Modal" tabindex="-1" aria-labelledby="tripp2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="tripp2ModalLabel">Tripp2 - Advanced Robotic Manipulator</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <!-- Project Image -->
+                                <img class="img-fluid mb-4" src="assets/img/Robotics_Portfolio/Tripp2_portfolio.jpg" alt="Tripp2 Project" />
+                                
+                                <!-- Project Description -->
+                                <h3>Project Overview</h3>
+                                <p class="text-muted">Advanced robotic manipulator system with ROS/MoveIt integration for complex motion planning and execution.</p>
+                                
+                                <h4>Technical Details</h4>
+                                <ul>
+                                    <li><strong>Framework:</strong> ROS with MoveIt motion planning</li>
+                                    <li><strong>Hardware:</strong> 6-DOF custom robotic arm</li>
+                                    <li><strong>Control:</strong> Real-time trajectory planning and execution</li>
+                                    <li><strong>Vision:</strong> Intel RealSense for object detection</li>
+                                </ul>
+                                
+                                <h4>Key Achievements</h4>
+                                <ul>
+                                    <li>Designed and built 6-DOF robotic arm from scratch</li>
+                                    <li>Implemented collision-free path planning with MoveIt</li>
+                                    <li>Achieved sub-millimeter positioning accuracy</li>
+                                    <li>Integrated computer vision for pick-and-place tasks</li>
+                                </ul>
+                                
+                                <h4>Skills Demonstrated</h4>
+                                <p>ROS/MoveIt • Motion Planning • Mechanical Design • Kinematics • CAD/CAM • Servo Control • Python/C++</p>
+                                
+                                <div class="mt-4">
+                                    <a href="#" class="btn btn-primary">View on GitHub</a>
+                                    <a href="#" class="btn btn-outline-primary">Technical Report</a>
+                                </div>
+                                
+                                <!-- Image Gallery Grid -->
+                                <h4 class="mt-5">Project Gallery</h4>
+                                <div class="row g-3">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/Tripp2_portfolio.jpg" class="img-fluid rounded" alt="Tripp2 Image 1">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/tripp2_full.png" class="img-fluid rounded" alt="Tripp2 Image 2">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/tool_changer.png" class="img-fluid rounded" alt="Tripp2 Image 3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4: UR10e Path Planning -->
+    <div class="modal fade" id="ur10eModal" tabindex="-1" aria-labelledby="ur10eModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ur10eModalLabel">UR10e Advanced Path Planning</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <!-- Project Image -->
+                                <img class="img-fluid mb-4" src="assets/img/Robotics_Portfolio/Ur10e_Portfolio.jpg" alt="UR10e Project" />
+                                
+                                <!-- Project Description -->
+                                <h3>Project Overview</h3>
+                                <p class="text-muted">Advanced path planning and simulation for Universal Robots UR10e collaborative robot with ROS/MoveIt integration.</p>
+                                
+                                <h4>Technical Details</h4>
+                                <ul>
+                                    <li><strong>Robot:</strong> Universal Robots UR10e (10kg payload)</li>
+                                    <li><strong>Software:</strong> ROS, MoveIt, Gazebo simulation</li>
+                                    <li><strong>Planning:</strong> OMPL, RRT*, custom algorithms</li>
+                                    <li><strong>Language:</strong> Python, C++, URScript</li>
+                                </ul>
+                                
+                                <h4>Key Achievements</h4>
+                                <ul>
+                                    <li>Developed custom path planning algorithms for complex trajectories</li>
+                                    <li>Reduced cycle time by 35% through optimization</li>
+                                    <li>Created digital twin in Gazebo for simulation</li>
+                                    <li>Implemented real-time collision avoidance</li>
+                                </ul>
+                                
+                                <h4>Skills Demonstrated</h4>
+                                <p>ROS/MoveIt • Path Planning • Simulation (Gazebo) • URScript • Industrial Robotics • Motion Control • Python/C++</p>
+                                
+                                <div class="mt-4">
+                                    <a href="#" class="btn btn-primary">View Simulation</a>
+                                    <a href="#" class="btn btn-outline-primary">Code Repository</a>
+                                </div>
+                                
+                                <!-- Image Gallery Grid -->
+                                <h4 class="mt-5">Project Gallery</h4>
+                                <div class="row g-3">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/Ur10e_Portfolio.jpg" class="img-fluid rounded" alt="UR10e Image 1">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/Ur10e_Portfolio.jpg" class="img-fluid rounded" alt="UR10e Image 2">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/Ur10e_Portfolio.jpg" class="img-fluid rounded" alt="UR10e Image 3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
