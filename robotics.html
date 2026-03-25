@@ -90,8 +90,16 @@
                         </div>
                     </div>
                 </div>
-                <!-- Portfolio item 5-->
-                
+                <!-- Portfolio item 5: Robot SDK Dynamic Parameter Estimation & Input Shaping-->
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="portfolio-item" data-bs-toggle="modal" data-bs-target="#robotSdkModal" style="cursor: pointer;">
+                        <img class="img-fluid" src="assets/img/Robotics_Portfolio/RobotSDK/Reforge_Lerobt.png" alt="Robot SDK Dynamic Parameter Estimation & Input Shaping" />
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Dynamic Parameter Estimation & Input Shaping</div>
+                            <div class="portfolio-caption-subheading text-muted">Custom SDK + Firmware + IK Solver + Sensor Fusion</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -390,6 +398,81 @@
                                     </div>
                                     <div class="col-md-4">
                                         <img src="assets/img/Robotics_Portfolio/ur10e_portfolio.jpg" class="img-fluid rounded" alt="UR10e Image 2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5: Robot SDK Dynamic Parameter Estimation & Input Shaping -->
+    <div class="modal fade" id="robotSdkModal" tabindex="-1" aria-labelledby="robotSdkModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="robotSdkModalLabel">Dynamic Parameter Estimation & Input Shaping</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <!-- Main Project Image -->
+                                <img class="img-fluid mb-4" src="assets/img/Robotics_Portfolio/RobotSDK/Reforge_Lerobt.png" alt="Robot SDK Project" />
+
+                                <!-- Project Description -->
+                                <h3>Project Overview</h3>
+                                <p class="text-muted">Investigating whether implementing input shaping and high-bandwidth control leads to faster convergence and increased success rates in vision-language-action (VLA) models. This project spans custom firmware, SDK development, dynamic parameter estimation, and real-time sensor fusion to enable precise robotic manipulation.</p>
+
+                                <h4>Technical Details</h4>
+                                <ul>
+                                    <li><strong>SDK & Communication:</strong> Built a custom SDK and serial protocol for real-time communication with a Teensy microcontroller</li>
+                                    <li><strong>Dynamic Parameter Estimation:</strong> Implemented model-based parameter identification for accurate dynamic compensation</li>
+                                    <li><strong>Inverse Kinematics:</strong> Developed a custom IK solver using Jacobian descent for flexible end-effector control</li>
+                                    <li><strong>Firmware:</strong> Architected and implemented a rate-monotonic scheduler with mode selection, achieving 500 Hz sensor fusion</li>
+                                    <li><strong>Hardware:</strong> Designed, fabricated, and integrated a custom end-effector mount housing a Teensy and IMU</li>
+                                </ul>
+
+                                <h4>Key Achievements</h4>
+                                <ul>
+                                    <li>Achieved 500 Hz real-time sensor fusion through rate-monotonic scheduling</li>
+                                    <li>Built end-to-end custom SDK and serial protocol for low-latency robot control</li>
+                                    <li>Designed and fabricated custom end-effector mount integrating embedded sensing</li>
+                                    <li>Implemented Jacobian-based IK solver for robust inverse kinematics</li>
+                                </ul>
+
+                                <h4>Skills Demonstrated</h4>
+                                <p>Embedded Systems • Real-Time Firmware • Sensor Fusion • Inverse Kinematics • Dynamic Parameter Estimation • Input Shaping • Serial Protocols • CAD/Fabrication • Python • C++ • Teensy</p>
+
+                                <!-- Project Video -->
+                                <h4 class="mt-5">Demo Video</h4>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <div class="ratio ratio-16x9">
+                                            <iframe src="https://www.youtube.com/embed/4ThODuD_-ao" title="Robot SDK Demo 1" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <div class="ratio ratio-16x9">
+                                            <iframe src="https://www.youtube.com/embed/wMAIpKP0yN8" title="Robot SDK Demo 2" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Image Gallery Grid -->
+                                <h4 class="mt-4">Project Gallery</h4>
+                                <div class="row g-3">
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/RobotSDK/robotData_motion_pose0_axis0_overview.png" class="img-fluid rounded" alt="Dynamic Parameter Estimation Data">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="assets/img/Robotics_Portfolio/RobotSDK/IMU_mount.png" class="img-fluid rounded" alt="Custom End-Effector IMU Mount">
                                     </div>
                                 </div>
                             </div>
